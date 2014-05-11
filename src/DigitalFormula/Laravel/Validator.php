@@ -27,7 +27,7 @@ class Validator
      * @param array $input The form data to use as input
      * @returns bool Whether or not the form is valid
      */
-    public function ValidateForm( $rules, $input )
+    public static function ValidateForm( $rules, $input )
     {
         $validation = \Validator::make( $input, $rules );
         return( $validation->fails() ? false : true );
