@@ -1,0 +1,23 @@
+{
+    "name": "digitalformula/laravel",
+    "description": "PHP libraries for use with Laravel 4",
+    "license": "MIT",
+	"keywords": [ "utilities", "laravel" ],
+    "authors": [
+        {
+            "name": "Chris Rasmussen",
+            "email": "packages@digitalformula.net",
+            "homepage": "http://digitalformula.net",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "DigitalFormula\\Laravel": "src/"
+        }
+    }
+}
